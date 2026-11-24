@@ -1,0 +1,37 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "clk" LOC = E12;
+NET "btn" LOC = T15;
+NET "keys[0]" LOC = V8;
+NET "keys[1]" LOC = U10;
+NET "keys[2]" LOC = U8;
+NET "keys[3]" LOC = T9;
+NET "leds[0]" LOC = R20;
+NET "leds[1]" LOC = T19;
+NET "leds[2]" LOC = U20;
+NET "leds[3]" LOC = U19;
+NET "leds[4]" LOC = V19;
+NET "leds[5]" LOC = V20;
+NET "leds[6]" LOC = Y22;
+NET "leds[7]" LOC = W21;
+
+# PlanAhead Generated IO constraints 
+
+NET "keys[3]" IOSTANDARD = LVCMOS33;
+NET "keys[2]" IOSTANDARD = LVCMOS33;
+NET "keys[1]" IOSTANDARD = LVCMOS33;
+NET "keys[0]" IOSTANDARD = LVCMOS33;
+NET "leds[7]" IOSTANDARD = LVCMOS33;
+NET "leds[6]" IOSTANDARD = LVCMOS33;
+NET "leds[5]" IOSTANDARD = LVCMOS33;
+NET "leds[4]" IOSTANDARD = LVCMOS33;
+NET "leds[3]" IOSTANDARD = LVCMOS33;
+NET "leds[2]" IOSTANDARD = LVCMOS33;
+NET "leds[1]" IOSTANDARD = LVCMOS33;
+NET "leds[0]" IOSTANDARD = LVCMOS33;
+NET "btn" IOSTANDARD = LVCMOS33;
+NET "clk" IOSTANDARD = LVCMOS33;
+
+
+NET "btn" PULLDOWN;
